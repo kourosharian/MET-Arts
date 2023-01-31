@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MET Arts</string>
+    <string name="label_search_hint">Enter a word to search for arts</string>
+    <string name="label_search">Search</string>
 </resources>

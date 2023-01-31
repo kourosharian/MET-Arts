@@ -1,4 +1,6 @@
 package abolfazli.mahdi.domain.arts.repositories
 
-class ArtsRepository {
+interface ArtsRepository {
+
+    suspend fun searchArtsRemote(query: String): Result<List<Int>>
 }
